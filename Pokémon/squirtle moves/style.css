@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGs98eFs42P2cO2Xy6g-E3UtpmJwzJJfq63NT__4ybu6dB6wwKyF43rNzytklDraqxRQQ&usqp=CAU);
+}
+  
+h1 {
+    text-align: center;
+}
+  
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+  
+.pokemon {
+    flex-basis: calc(20% - 20px);
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+  
+.pokemon img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+  
+.pokemon h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+.pokemon p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+#four {
+    background-color: purple;
+}
+
+#three {
+    background-color: pink;
+}
+
+#two {
+    background-color: mediumaquamarine;
+}
+
+#one {
+    background-color: cornflowerblue;
+}
+
+#squirtle {
+    background-color: lightgray;
+}
